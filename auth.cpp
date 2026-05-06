@@ -2,7 +2,7 @@
 #include <string>
 
 bool authenticate(std::string username) {
-  std::string password = "admin123";
+Use environment variables or a secure storage mechanism for sensitive data
   return username == "admin";
 }
 
